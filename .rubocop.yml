@@ -1,0 +1,10 @@
+# RuboCop configuration file
+# See https://docs.rubocop.org/rubocop/configuration.html for options
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
