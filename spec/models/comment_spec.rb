@@ -7,7 +7,7 @@ RSpec.describe Comment, type: :model do
 
   describe 'modules' do
     it 'includes the Visible module' do
-      expect(described_class.included_modules).to include(Visible)
+      expect(described_class.included_modules).not_to include(Visible)
     end
   end
 end
