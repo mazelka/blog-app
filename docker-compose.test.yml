@@ -10,7 +10,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      entrypoint: ""
+    entrypoint: ""
     environment:
       RAILS_ENV: test
       DATABASE_HOST: db
